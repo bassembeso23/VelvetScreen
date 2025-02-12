@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SkillBuilder</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/master.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start settings box -->
+        <div class="settings-box">
+            <div class="toggle-settings">
+                <i class="fa-solid fa-gear settings-icon"></i>
+            </div>
+            <div class="settings-container">
+                <div class="option-box">
+                    <h4>Colors</h4>
+                    <ul class="colors-list non-list">
+                        <li class="active" data-color="#ff9800"></li>
+                        <li data-color="#e91e63"></li>
+                        <li data-color="#009688"></li>
+                        <li data-color="#03a9f4"></li>
+                    </ul>
+                </div>
+                <div class="option-box">
+                    <h4>Randoms background</h4>
+                    <div class="buttons background">
+                        <span class="yes active"
+                            data-background="yes">Yes</span>
+                        <span class="no" data-background="no">No</span>
+                    </div>
+                </div>
+                <div class="option-box">
+                    <h4>Show Bullets</h4>
+                    <div class="buttons bullets">
+                        <span class="yes active" data-display="block">Yes</span>
+                        <span class="no" data-display="none">No</span>
+                    </div>
+                </div>
+                <button class="reset-settings">reset options</button>
+            </div>
+        </div>
+        <!-- End setting box -->
+
+        <!-- Start nav bullets -->
+        <div class="nav-bullets">
+            <div class="bullet" data-section=".about-us">
+                <div class="tooltip">About us</div>
+            </div>
+            <div class="bullet" data-section=".skills">
+                <div class="tooltip">our features</div>
+            </div>
+            <div class="bullet" data-section=".now-shown">
+                <div class="tooltip">Now shown</div>
+            </div>
+            <div class="bullet" data-section=".cinemas">
+                <div class="tooltip">cinemas</div>
+            </div>            
+            <div class="bullet" data-section=".testimonials">
+                <div class="tooltip">testimonials</div>
+            </div>
+            <div class="bullet" data-section=".contact-us">
+                <div class="tooltip">contact</div>
+            </div>
+        </div>
+        <!-- End nav bullets -->
+
+        <!-- Start landing page -->
+        <div class="landing-page">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="header-area">
+                    <div class="logo"><a
+                            href="index.html">VelvetScreen</a></div>
+                    <div class="links-container">
+                        <ul class="links non-list">
+                            <li><a href="#" class="active"
+                                    data-section=".now-shown">Now shown</a></li>
+                            <li><a href="" data-section=".cinemas">cinemas</a></li>
+                            <li><a href="" data-section=".coming-soon">coming
+                                    soon</a></li>
+                            <li><a href=""
+                                    data-section=".contact-us">contact</a></li>
+                            <li><a href=""
+                                    data-section=".now-shown">support</a></li>
+                            <li><a href="" data-section=".about-us">about
+                                    us</a></li>
+                        </ul>
+                        <button class="toggle-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="introduction-text">
+                <h1>Where Every <span>Seat</span> Tells a Story!</h1>
+                <p>Now showning</p>
+            </div>
+        </div>
+        <!-- End landing page -->
+
+        <!-- Start About Us -->
+        <div class="container">
+            <div class="about-us">
+                <div class="about-text">
+                    <h2 class="special-header low-mr">About VelvetScreen</h2>
+                    <p>Is where luxury meets the magic of movies. We offer an
+                        unparalleled cinematic experience with state-of-the-art
+                        technology, plush velvet seating, and a curated
+                        selection of the latest blockbusters and indie gems. At
+                        VelvetScreen, We’re more than just a cinema, We’re a
+                        destination for film lovers to relax, connect, and
+                        create unforgettable memories. From our cutting-edge 4K
+                        projection to our exceptional customer service, every
+                        detail is designed to make your visit extraordinary.
+                        Welcome to VelvetScreen, where every movie feels like a
+                        premiere.</p>
+                </div>
+                <div class="about-img">
+                    <img src="images/about-us.jpg" alt="about">
+                </div>
+            </div>
+        </div>
+        <!-- End About Us -->
+
+        <!-- Start Our Skills -->
+        <div class="skills">
+            <div class="container">
+                <h2 class="special-header">Our Features</h2>
+                <div class="skill-box">
+                    <div class="skill-name">Easy Online Booking</div>
+                    <div class="skill-progress">
+                        <span data-progress="95%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Real-Time Showtimes</div>
+                    <div class="skill-progress">
+                        <span data-progress="83%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Secure Payments</div>
+                    <div class="skill-progress">
+                        <span data-progress="90%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Instant Confirmation</div>
+                    <div class="skill-progress">
+                        <span data-progress="89%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Flexible Seating</div>
+                    <div class="skill-progress">
+                        <span data-progress="93%"></span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-name">Exclusive Offers</div>
+                    <div class="skill-progress">
+                        <span data-progress="85%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Our Skills -->
+
+        <!-- Start now-shown -->
+        <div class="now-shown">
+            <div class="container">
+                <h2 class="special-header">Now Showning</h2>
+                <div class="images-box">
+                    <img src="images/film01" alt="الدشاش">
+                    <img src="images/film02.jpg" alt="الحريفة 2">
+                    <img src="images/film03.jpg" alt="رامبو">
+                    <img src="images/film04.jpg" alt="الهنا اللي انا فيه">
+                    <img src="images/film05.jpg" alt="بضع ساعات في يوم ما">
+                    <img src="images/film06.jpg" alt>
+                    <img src="images/film07.jpg" alt>
+                    <img src="images/film08.jpg" alt>
+                    <img src="images/film09.jpg" alt>
+                    <img src="images/film10.jpg" alt>
+                </div>
+            </div>
+        </div>
+        <!-- End now-shown -->
+
+        <!-- Start timeline -->
+        <div class="timeline">
+            <div class="container">
+                <div class="timeline-content">
+                    <div class="year">2024</div>
+
+                    <div class="left">
+                        <div class="content">
+                            <h3>Expanding Horizons</h3>
+                            <p>This year marks a significant milestone as we
+                                opened new branches in key locations, bringing
+                                our unique cinematic experience to even more
+                                movie enthusiasts. Our commitment to innovation
+                                and customer satisfaction continues to drive our
+                                growth.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Innovating the Experience</h3>
+                            <p>We introduced cutting-edge technology across all
+                                our cinemas, including 4K projection and
+                                immersive sound systems. Our focus on enhancing
+                                the viewer experience has set new standards in
+                                the industry.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="year">2023</div>
+                    <div class="right">
+                        <div class="content">
+                            <h3>Building the Foundation</h3>
+                            <p>We laid the groundwork for our expansion by
+                                investing in state-of-the-art facilities and
+                                training our staff to deliver exceptional
+                                service. This year was pivotal in establishing
+                                our reputation for quality and excellence.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="year">2022</div>
+                    <div class="left">
+                        <div class="content">
+                            <h3>Our Humble Beginnings</h3>
+                            <p>Our journey began with the opening of our first
+                                cinema in Zamalek. From the start, our mission
+                                has been to provide a premium movie-going
+                                experience that combines comfort, technology,
+                                and outstanding service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End timeline -->
+
+        <!-- Start cinemas -->
+        <div class="cinemas">
+            <h2 class="special-header">Cinemas</h2>
+            <div class="container">
+                <div class="feat-box">
+                    <img src="images/Untitled design.jpg" alt>
+                    <h4>Zamalez</h4>
+                    <p>Experience the magic of cinema at our Zamalek branch,
+                        where state-of-the-art technology meets unparalleled
+                        comfort. Enjoy the latest blockbusters in a luxurious
+                        setting designed for movie lovers.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Untitled design.jpg" alt>
+                    <h4>Nasr City</h4>
+                    <p>Our Nasr City location offers a premium cinematic
+                        experience with cutting-edge sound and visuals. Whether
+                        you're here for a family outing or a night out with
+                        friends, we guarantee an unforgettable movie
+                        experience.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Untitled design.jpg" alt>
+                    <h4>Madinaty</h4>
+                    <p>Step into our Madinaty cinema and immerse yourself in the
+                        ultimate movie-watching experience. With spacious
+                        seating and top-notch facilities, we bring your favorite
+                        films to life like never before.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Untitled design.jpg" alt>
+                    <h4>Semoha</h4>
+                    <p>At our Semoha branch, we combine modern
+                        amenities with a cozy atmosphere. Perfect for film
+                        enthusiasts, our cinema ensures every visit is a
+                        memorable
+                        one.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Untitled design.jpg" alt>
+                    <h4>DownTown</h4>
+                    <p>Located in the heart of the city, our DownTown cinema is
+                        your go-to destination for the latest releases. Enjoy
+                        exceptional service and a vibrant movie-going
+                        experience.</p>
+                </div>
+                <div class="feat-box">
+                    <img src="images/Untitled design.jpg" alt>
+                    <h4>Dandy Mall</h4>
+                    <p>Visit our Dandy Mall location for a cinematic adventure
+                        like no other. With the latest in audiovisual technology
+                        and comfortable seating, we make every movie night
+                        special.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- End cinemas -->
+
+        <!-- Start testimonials -->
+        <div class="testimonials">
+            <div class="container">
+                <h2>testimonials</h2>
+                <div class="boxs">
+                    <div class="ts-box">
+                        <p>The booking process is so easy with their seamless seat reservation system, and I always get the best view.</p>
+                        <div class="person-info">
+                            <img src="images/avatar-06.png" alt="#">
+                            <div class="person-text">
+                                <h4>Mohamed Ali</h4>
+                                <p>Viewer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ts-box">
+                        <p>The seats are super comfortable, and the sound and picture quality make every movie feel immersive.</p>
+                        <div class="person-info">
+                            <img src="images/avatar-04.png" alt="#">
+                            <div class="person-text">
+                                <h4>Ahmed khaled</h4>
+                                <p>Viewer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ts-box">
+                        <p>The staff is friendly and helpful, and the overall atmosphere is clean and well-maintained.</p>
+                        <div class="person-info">
+                            <img src="images/avatar-05.png" alt="#">
+                            <div class="person-text">
+                                <h4>Sara Mohamed</h4>
+                                <p>Viewer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End testimonials -->
+
+        <!-- Start contact-us -->
+        <div class="contact-us">
+            <div class="overlay"></div>
+            <div class="container">
+                <h2 class="special-header">Contact Us</h2>
+                <form action="mailto:bassemyasser2003g@gmail.com" method="post">
+                    <div class="left">
+                        <input type="text" name="username" id
+                            placeholder="Your name" required>
+                        <input type="text" name="phone" id
+                            placeholder="Your phone">
+                        <input type="email" name="email" id
+                            placeholder="Your email" required>
+                        <input type="text" name="subject" id
+                            placeholder="Subject" required>
+                    </div>
+                    <div class="right">
+                        <textarea name="message" id
+                            placeholder="Your message" required></textarea>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- End contact-us -->
+
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- Brand Logo or Name -->
+                <div class="footer-brand">
+                    <h2>VervetScreen</h2>
+                    <p>Your gateway to the best cinematic experiences.</p>
+                </div>
+        
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="" data-section=".landing-page">Home</a></li>
+                        <li><a href="" data-section=".now-shown">Movies</a></li>
+                        <li><a href="" data-section=".about-us">About Us</a></li>
+                        <li><a href="" data-section=".cinemas">Cinemas</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Contact Information -->
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Phone: +123 456 7890</p>
+                    <p>Email: info@vervetscreen.com</p>
+                </div>
+        
+                <!-- Social Media Links -->
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Copyright Notice -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 VervetScreen. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="js/master.js"></script>
+    </body>
+</html>
